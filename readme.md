@@ -1,6 +1,6 @@
-## Bank
+## Organizer
 
-#### Olá, me chamo Daniel Hott e esta é uma aplicação fullstack de banco com possibilidade de realizar transações, mapear suas transações, criar uma nova conta e realizar login.
+#### Olá, me chamo Daniel Hott e esta é uma aplicação fullstack de Organizador que permite adicionar, editar e excluir seus boletos.
 
 ### Tecnologias: 
 
@@ -24,29 +24,22 @@ Docker-compose para buildar e subir a aplicação em qualquer máquina.
 
 #### Login -  Na página de login, há a possibilidade de fazer o login e criar nova conta.
 
-![Web 1](https://github.com/DanielHott/imagens/blob/master/login-ng.png)
+![Web 1](https://github.com/DanielHott/imagens/blob/master/organizar_login.png)
 
 #### Registrate -  Na página de registrar usuário, há a possibilidade de criar uma nova conta.
 
-![Web 1](https://github.com/DanielHott/imagens/blob/master/registrate-ng.png)
+![Web 1](https://github.com/DanielHott/imagens/blob/master/organizar_cadastrate.png)
 
-#### Main -  Na página principal, o usuário pode realizar transferências, voltar para a tela de login.
+#### Main -  Na página principal, o usuário pode cadastrar uma nova conta, apagar ou editar, além voltar para a tela de login.
 
-![Web 1](https://github.com/DanielHott/imagens/blob/master/transfer-ng.png)
+![Web 1](https://github.com/DanielHott/imagens/blob/master/organizar_main.png)
 
-#### Main -  Simulando uma transferência, fornecendo o username destino e o valor.
-
-![Web 1](https://github.com/DanielHott/imagens/blob/master/transfer-doing-ng.png)
-
-#### Transactions -  Na página de transações do usuário, permite que listemos todas as transações realizadas inclusive com filtro para visualizar todas as transações, somente as cash-in e somente as cash-out.
-
-![Web 1](https://github.com/DanielHott/imagens/blob/master/list-transfer-ng.png)
 
 ### Para rodar a aplicação, deve ter o docker instalado na máquina.
 
 #### Passos para rodar a aplicação:
 
-1 - Vá pelo terminal até a pasta `Bank`
+1 - Vá pelo terminal até a pasta `Organizer`
 
 2 - Certifique que não há nada rodando nos endpoints: `http://localhost:3000/` e `http://localhost:6585/`
 
